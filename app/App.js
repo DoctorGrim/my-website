@@ -24,7 +24,6 @@ const prevProperty = () => {
 
     return (
       <div className="App">
-        <p>test{`${data.properties[0]}`}</p>
         <button 
           onClick={() => nextProperty()} 
           disabled={property.index === data.properties.length-1}
