@@ -20,8 +20,7 @@ const prevProperty = () => {
     setProperty(data.properties[newIndex]
     )
   }
-    console.log(property.index)
-
+  
     return (
       <div className="App">
         <button 

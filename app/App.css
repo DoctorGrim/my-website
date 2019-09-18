@@ -48,6 +48,7 @@ section {
   background-color: #f3f3f3;
   padding: 10px;
   max-width: 220px;
+  max-height: 360px;
   text-align: left;
   margin: 0 auto; }
   .card:hover {
@@ -55,6 +56,7 @@ section {
     border-color: #f3f3f3; }
   .card img {
     max-width: calc(100%);
+    max-height: calc(90%);
     margin: 0 auto;
     display: block; }
   .card .index {
@@ -67,23 +69,7 @@ section {
     right: 0;
     display: block;
     padding: 0 10px; }
-  .card .price {
-    margin: 0;
-    padding: 10px 0;
-    font-weight: bold; }
-  .card .details {
-    position: relative; }
-  .card .features {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-    .card .features li {
-      padding-left: 24px;
-      margin-right: 10px;
-      display: inline-block; }
-      .card .features li span {
-        display: none; }
-
+ 
 /* #endregion */
 /* #region cards slider */
 .cards-slider-wrapper {
