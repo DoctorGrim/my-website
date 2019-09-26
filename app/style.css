@@ -20,6 +20,9 @@ p {
 header {
  text-align:center
 }
+.about{
+    padding: 10px
+}
 hr {
  margin-top:30px;
  border-width:0;
@@ -39,10 +42,6 @@ section {
 } */
 .projects a {
  color:#222
-}
-.speaking-columns {
- display:grid;
- grid-template-columns:1fr 1fr 1fr
 }
 .social-links a {
  font-size:25px;

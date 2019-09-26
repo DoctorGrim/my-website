@@ -34,7 +34,7 @@ body {
 
 section {
   padding: 20px 0;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto; }
 
 /* #endregion */
@@ -69,6 +69,9 @@ section {
     right: 0;
     display: block;
     padding: 0 10px; }
+    .card .title {
+      text-align: center
+    }
  
 /* #endregion */
 /* #region cards slider */
@@ -144,3 +147,4 @@ section {
     left: 0; }
 
 /* #endregion */
+

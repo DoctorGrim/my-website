@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import Picture from './media/mobile-ynab.png'
 
-const Card = ({property}) => {
-    const {index, picture} = property;
+const Card = ({project}) => {
+    const {index, picture, text, title} = project;
     // const getImage=()=> picture
     
     return (
@@ -11,8 +11,9 @@ const Card = ({property}) => {
             <img src={picture} alt={`project ${index+1}`} />
             <div className="details">
                 <span className="index">{index+1}</span>
+                <h3 className="title">{title}</h3>
                 <p className="project">
-                    project {index+1}
+                    project {text}
                 </p>
                 <ul className="features">
                 </ul>
@@ -22,7 +23,7 @@ const Card = ({property}) => {
 }
 
 Card.propTypes = {
-    property: PropTypes.object.isRequired
+    projects: PropTypes.object.isRequired
 }
 
 export default Card;
