@@ -6,13 +6,13 @@ import data from "./data";
 
 function App() {
   const [projects, setProjects] = useState(data.projects);
-  const [project, setProject] = useState(data.projects[1]);
+  const [project, setProject] = useState(data.projects[0]);
 
   const nextProject = () => {
     let newIndex = project.index + 1;
     setProject(data.projects[newIndex]);
   };
-  
+
   const prevProject = () => {
     const newIndex = project.index - 1;
     setProject(data.projects[newIndex]);
@@ -24,14 +24,19 @@ function App() {
         <section>
           <h1>Projects</h1>
         </section>
-        <button 
+        <button
+          className="slide-button left"
+          onClick={() => prevProject()}
+          disabled={project.index === 0}
+        >
+          &lt;
+        </button>
+        <button
+          className="slide-button right"
           onClick={() => nextProject()}
           disabled={project.index === data.projects.length - 1}
         >
-          Next
-        </button>
-        <button onClick={() => prevProject()} disabled={project.index === 0}>
-          Prev
+          &gt;
         </button>
         <div className="col">
           <div className={`cards-slider active-slide-${project.index}`}>
