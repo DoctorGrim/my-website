@@ -10,7 +10,6 @@ const Card = ({ project }) => {
     <div id={`card-${index}`} className="card">
       <img src={picture} alt={`project ${index + 1}`} />
       <div className="details">
-        <span className="index">{index + 1}</span>
         <h3 className="title">{title}</h3>
         <p className="project">{text}</p>
         <ul className="features"></ul>

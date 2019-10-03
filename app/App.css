@@ -1,8 +1,8 @@
 /* #region Default styles */
 body {
-  margin: 0;
+  /* margin: 0;
   padding: 0 0 100px 0;
-  font-family: sans-serif;
+  font-family: sans-serif; */
   overflow-x: hidden;
 }
 
@@ -11,32 +11,7 @@ body {
   position: relative;
 }
 
-.App-logo {
-  height: 80px;
-}
-
 /* DEMO STYLES */
-.nav {
-  padding: 30px 0;
-  background-color: #222;
-}
-
-.nav a {
-  display: inline-block;
-  width: 100px;
-  text-align: center;
-  margin: 0 15px;
-  padding: 10px;
-  border: 1px rgba(255, 255, 255, 0.5) solid;
-  transition: all 0.3s linear;
-  text-decoration: none;
-  color: white;
-}
-
-.nav a.active {
-  background-color: #61dafb;
-  color: #222;
-}
 
 section {
   padding: 20px 0;
@@ -54,14 +29,14 @@ section {
 
 .left {
   position: absolute;
-  right: 85vw;
-  top: 150px;
+  right: calc(100% - 57.8px);
+  top: 200px;
 }
 
 .right {
   position: absolute;
-  right: 5vw;
-  top: 150px;
+  right: calc(0%);
+  top: 200px;
 }
 /* #endregion */
 /* #region Card */
@@ -75,7 +50,7 @@ section {
   padding: 10px;
   max-width: 220px;
   max-height: 360px;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
 }
 .card:hover {
@@ -88,17 +63,7 @@ section {
   margin: 0 auto;
   display: block;
 }
-.card .index {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  line-height: 20px;
-  font-size: 14px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: block;
-  padding: 0 10px;
-}
+
 .card .title {
   text-align: center;
 }
@@ -159,9 +124,15 @@ section {
 
 .col {
   height: 500px;
-  position: relative;
+  position: absolute;
+  padding: 0 18vw;
 }
-.col:before,
+@media only screen and (min-width: 450px) {
+  .col{
+    padding:0 23.5vw
+  }
+}
+/* .col:before,
 .col:after {
   content: "";
   display: block;
@@ -177,17 +148,17 @@ section {
   left: auto;
   right: 0;
   background: linear-gradient(to left, white 15%, rgba(255, 255, 255, 0) 100%);
-}
+} */
 
 .cards-slider {
   position: relative;
   max-width: 50vw;
-  margin: 0 auto;
+  margin: 0 22.5%;
 }
 .cards-slider:after {
   content: "";
   display: block;
-  width: 100%;
+  /* width: 100%; */
   position: absolute;
   top: 0;
   left: 0;

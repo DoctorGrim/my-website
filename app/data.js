@@ -24,7 +24,7 @@ const data = {
       _id: "593e929773c71925e5d7c11c",
       index: 2,
       picture: commingSoon,
-      title: "Somming Soon",
+      title: "Comming Soon",
       text: ""
     }
   ]
