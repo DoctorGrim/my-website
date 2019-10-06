@@ -2,7 +2,6 @@ import React, { Component, useState } from "react";
 import "./App.css";
 import Card from "./Card";
 import data from "./data";
-// import logo from './assets/logo.svg';
 
 function App() {
   const [projects, setProjects] = useState(data.projects);
@@ -38,6 +37,7 @@ function App() {
         >
           &gt;
         </button>
+        {/* contains project slidshow and will adjust to the number of projects by adding a card for each project in data*/}
         <div className="col">
           <div className={`cards-slider active-slide-${project.index}`}>
             <div

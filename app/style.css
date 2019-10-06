@@ -31,7 +31,8 @@ hr {
 section {
   margin: 30px;
 }
-/* canvas {
+/* TODO add interactive background animaton
+ canvas {
  position:fixed;
  top:0;
  z-index:-1;
@@ -39,9 +40,6 @@ section {
  height:100vh;
  margin-left:0
 } */
-.projects a {
-  color: #222;
-}
 .social-links a {
   font-size: 25px;
   padding: 0 8px;

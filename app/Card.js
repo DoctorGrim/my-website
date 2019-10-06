@@ -1,10 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import Picture from './media/mobile-ynab.png'
 
 const Card = ({ project }) => {
   const { index, picture, text, title } = project;
-  // const getImage=()=> picture
 
   return (
     <div id={`card-${index}`} className="card">
