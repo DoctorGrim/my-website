@@ -10,7 +10,7 @@ const data = {
       picture: ynab,
       title: "YNAB Google Assistant Integration",
       text:
-        "We partnered with Youneedabudget.com or YNAB to allow someone to use a voice user interface via Google Assistant."
+        "We partnered with YNAB to allow someone to use a voice comands on Google Assistant."
     },
     {
       _id: "593e9297ec4cca9c56bf61af",
