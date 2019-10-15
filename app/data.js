@@ -8,9 +8,9 @@ const data = {
       _id: "593e9297e17df20c4a237d42",
       index: 0,
       picture: ynab,
-      title: "YNAB Google Assistant Integration",
+      title: "YNAB Google Assistant",
       text:
-        "We partnered with YNAB to allow someone to use a voice comands on Google Assistant."
+        "We partnered with YNAB to allow someone to use voice comands on Google Assistant."
     },
     {
       _id: "593e9297ec4cca9c56bf61af",
