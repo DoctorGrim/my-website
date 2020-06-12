@@ -1,6 +1,6 @@
 import ynab from "./media/mobile-ynab-small.png";
 import momm from "./media/mobile-momm.png";
-import commingSoon from "./media/coming-soon.png";
+import comingSoon from "./media/coming-soon.png";
 
 const data = {
   projects: [
@@ -23,8 +23,8 @@ const data = {
     {
       _id: "593e929773c71925e5d7c11c",
       index: 2,
-      picture: commingSoon,
-      title: "Comming Soon",
+      picture: comingSoon,
+      title: "Coming Soon",
       text: ""
     }
   ]
